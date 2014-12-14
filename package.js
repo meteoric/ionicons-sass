@@ -1,6 +1,6 @@
 Package.describe({
   name: 'meteoric:ionicons-sass',
-  summary: 'Ionicons SASS bundled for Meteor.',
+  summary: "Ionic's Ionicons library in SASS and bundled for Meteor.",
   version: '0.1.0',
   git: 'https://github.com/meteoric/ionicons-sass'
 });

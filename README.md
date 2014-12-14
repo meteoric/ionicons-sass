@@ -2,7 +2,7 @@
 
 # ionicons-sass
 
-[Ionic Framework](http://ionicframework.com/)'s icon library [Ionicons](http://ionicons.com/) in SASS and bundled for Meteor. Currently up to date with version `2.0.0`.
+[Ionic](http://ionicframework.com/)'s [Ionicons](http://ionicons.com/) library in SASS and bundled for Meteor. Currently up to date with version `2.0.0`.
 
 ## Installation
 
