@@ -2,6 +2,9 @@
   "packageIncludePaths": {
     ".": [
       "./"
+    ],
+    "meteoric:ionicons-sass": [
+      "./"
     ]
   }
 }
