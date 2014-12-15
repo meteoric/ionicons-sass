@@ -7,6 +7,7 @@
 ## Installation
 
 ```
+meteor add stevezhu:sass
 meteor add meteoric:ionicons-sass
 ```
 
