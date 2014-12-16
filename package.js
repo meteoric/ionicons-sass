@@ -1,30 +1,29 @@
 Package.describe({
   name: 'meteoric:ionicons-sass',
   summary: "Ionic's Ionicons library in SASS and bundled for Meteor.",
-  version: '0.1.2',
+  version: '0.1.4',
   git: 'https://github.com/meteoric/ionicons-sass'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('stevezhu:sass@1.3.2');
-
-  api.addFiles('sass_include_paths.json', 'server');
+  api.use("fourseven:scss@1.0.0", ["server"]);
+  api.imply("fourseven:scss", ["server"]);
 
   api.addFiles([
-    'ionicons-fonts/ionicons.eot',
-    'ionicons-fonts/ionicons.svg',
-    'ionicons-fonts/ionicons.ttf',
-    'ionicons-fonts/ionicons.woff'
+    'fonts/ionicons.eot',
+    'fonts/ionicons.svg',
+    'fonts/ionicons.ttf',
+    'fonts/ionicons.woff'
   ], 'client');
 
 
   api.addFiles([
-    'ionicons-sass/_ionicons-animation.scss',
-    'ionicons-sass/_ionicons-font.scss',
-    'ionicons-sass/_ionicons-icons.scss',
-    'ionicons-sass/_ionicons-variables.scss'
-  ], 'client');
+    'stylesheets/_ionicons-animation.scss',
+    'stylesheets/_ionicons-font.scss',
+    'stylesheets/_ionicons-icons.scss',
+    'stylesheets/_ionicons-variables.scss'
+  ], 'server');
 
-  api.addFiles('_ionicons.scss', 'client');
+  api.addFiles('_ionicons.scss', 'server');
 });
