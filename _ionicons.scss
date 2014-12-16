@@ -1,4 +1,4 @@
-@import "ionicons-sass/ionicons-variables";
+@import "stylesheets/ionicons-variables";
 /*!
 Ionicons, v#{$ionicons-version}
 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -11,6 +11,6 @@ used under CC BY http://creativecommons.org/licenses/by/4.0/
 Modified icons to fit ionicon’s grid from original.
 */
 
-@import "ionicons-sass/ionicons-font";
-@import "ionicons-sass/ionicons-icons";
-@import "ionicons-sass/ionicons-animation";
+@import "stylesheets/ionicons-font";
+@import "stylesheets/ionicons-icons";
+@import "stylesheets/ionicons-animation";
