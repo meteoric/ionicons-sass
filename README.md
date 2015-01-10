@@ -25,4 +25,4 @@ Due to a current limitation of the Meteor packaging system, the above path may n
 See the official [Ionicons](http://ionicons.com/) site for usage instructions.
 
 ## License
-[MIT License](/blob/master/LICENSE.txt)
+[MIT License](https://github.com/meteoric/ionicons-sass/blob/master/LICENSE)
