@@ -23,3 +23,6 @@ Due to a current limitation of the Meteor packaging system, the above path may n
 ## Docs
 
 See the official [Ionicons](http://ionicons.com/) site for usage instructions.
+
+## License
+[MIT License](/blob/master/LICENSE.txt)
