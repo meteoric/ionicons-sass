@@ -1,13 +1,13 @@
 Package.describe({
   name: 'meteoric:ionicons-sass',
   summary: "Ionic's Ionicons library in SASS and bundled for Meteor.",
-  version: '0.1.6',
+  version: '0.1.7',
   git: 'https://github.com/meteoric/ionicons-sass'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use("fourseven:scss@2.0.0", ["server"]);
+  api.use("fourseven:scss@3.2.0", ["server"]);
   api.imply("fourseven:scss", ["server"]);
 
   api.addFiles([
