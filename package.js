@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.use("fourseven:scss@3.2.0", ["server"]);
   api.imply("fourseven:scss", ["server"]);
 
-  api.addFiles([
+  api.addAssets([
     'fonts/ionicons.eot',
     'fonts/ionicons.svg',
     'fonts/ionicons.ttf',
